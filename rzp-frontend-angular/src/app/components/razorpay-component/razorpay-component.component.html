@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <input type="text" class="form-name" placeholder="Enter your name" [(ngModel)]="userDetails.recipientName" required>
+        </div>
+        <div class="col-sm">
+            <input type="email" class="form-email" placeholder="Enter your email" [(ngModel)]="userDetails.recipientEmail" required>
+        </div>
+        <div class="col-sm">
+            <input type="tel" class="form-phone" placeholder="Enter your phone" [(ngModel)]="userDetails.recipientPhone" required>
+        </div>
+        <div class="col-sm">
+            <input type="number" class="form-phone" placeholder="Enter amount" [(ngModel)]="userDetails.amount" required>
+        </div>
+        <button type="button" class="btn btn-primary" (click)="pay()">Pay</button>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{
+  "name": "rzp-frontend-ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

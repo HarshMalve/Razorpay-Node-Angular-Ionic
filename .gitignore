@@ -1,0 +1,8 @@
+.env
+/rzp-backend-node/node_modules
+/rzp-frontend-angular/node_modules
+/rzp-frontend-angular/dist
+/rzp-frontend-ionic/node_modules
+/rzp-frontend-ionic/dist
+/rzp-frontend-ionic/platforms
+/rzp-frontend-ionic/plugins

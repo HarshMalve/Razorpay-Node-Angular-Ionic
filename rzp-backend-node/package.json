@@ -1,0 +1,21 @@
+{
+  "name": "rzp-backend-node",
+  "version": "1.0.0",
+  "description": "Backend NodeJS for RazorPay Payment Gateway Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harshavardhan@mobeserv.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "moment": "^2.26.0",
+    "razorpay": "^2.0.6",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
